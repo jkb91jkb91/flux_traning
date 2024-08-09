@@ -12,3 +12,9 @@ spec:
         kind: GitRepository
         name: flux-system
         namespace: flux-system
+  values:
+    grafana:
+      resources:
+        limits:
+          cpu: 300m
+          memory: 512Mi
