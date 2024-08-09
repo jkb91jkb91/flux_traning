@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: ./HelmCharts/grafana_HR
+      chart: ./Charts/grafana_HR
       sourceRef:
         kind: GitRepository
         name: flux-system
